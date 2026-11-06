@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="A cheerful little bureau that celebrates the tiny victories of everyday life."
+    >
+    <meta name="theme-color" content="#fff9ed">
+    <title>The Tiny Victory Bureau</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to the good stuff</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="The Tiny Victory Bureau home">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        <span>Tiny Victory Bureau</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#what-counts">What counts?</a>
+        <a href="#get-certified">Get certified</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span aria-hidden="true">✦</span> A very official department</p>
+          <h1 id="hero-title">You did a thing.<br><span>That counts.</span></h1>
+          <p class="hero-intro">
+            Welcome to the Tiny Victory Bureau, where small wins get the
+            oversized celebration they clearly deserve.
+          </p>
+          <a class="button button-dark" href="#get-certified">
+            Claim your tiny victory <span aria-hidden="true">↓</span>
+          </a>
+          <p class="fine-print">No paperwork. No pants required. (Optional pants are fine.)</p>
+        </div>
+
+        <div class="badge" aria-label="Officially a big deal">
+          <span class="badge-sparkle" aria-hidden="true">✦</span>
+          <span class="badge-top">OFFICIALLY</span>
+          <span class="badge-main">A BIG<br>DEAL</span>
+          <span class="badge-bottom">SINCE JUST NOW</span>
+          <span class="badge-sparkle badge-sparkle-bottom" aria-hidden="true">✦</span>
+        </div>
+        <div class="rainbow-strip" aria-hidden="true"></div>
+      </section>
+
+      <section class="counts section-wrap" id="what-counts" aria-labelledby="counts-title">
+        <div class="section-heading">
+          <p class="eyebrow">Please note</p>
+          <h2 id="counts-title">The bar is delightfully low.</h2>
+          <p>These are all valid reasons to give yourself a tiny round of applause.</p>
+        </div>
+        <div class="win-grid">
+          <article class="win-card win-card-peach">
+            <span class="card-icon" aria-hidden="true">☕</span>
+            <h3>Hydrated-ish</h3>
+            <p>You drank water before your beverage became a personality.</p>
+          </article>
+          <article class="win-card win-card-lilac">
+            <span class="card-icon" aria-hidden="true">🧺</span>
+            <h3>Laundry: in motion</h3>
+            <p>The clothes made it into the machine. The rest is tomorrow's plot.</p>
+          </article>
+          <article class="win-card win-card-mint">
+            <span class="card-icon" aria-hidden="true">✉</span>
+            <h3>Email: answered</h3>
+            <p>You replied to that email. The reply-all button remains unpressed. Heroic.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="certificate" id="get-certified" aria-labelledby="certificate-title">
+        <div class="certificate-inner">
+          <div class="certificate-copy">
+            <p class="eyebrow">Your moment is now</p>
+            <h2 id="certificate-title">Ready for your<br>official recognition?</h2>
+            <p>Tap the button. The Bureau's extremely serious award machine will handle the rest.</p>
+            <button class="button button-light" id="award-button" type="button">
+              Issue my tiny victory <span aria-hidden="true">✦</span>
+            </button>
+          </div>
+          <div class="award-card" id="award-card" aria-live="polite" aria-atomic="true">
+            <span class="award-star" aria-hidden="true">✳</span>
+            <p class="award-label">TINY VICTORY CERTIFICATE</p>
+            <p class="award-message" id="award-message">Your achievement goes here.</p>
+            <p class="award-seal">APPROVED BY THE BUREAU</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">✳</span>
+        <span>Tiny Victory Bureau</span>
+      </a>
+      <p>Making a big deal out of little things since just now.</p>
+      <a class="back-to-top" href="#top">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
